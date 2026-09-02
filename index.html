@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Más Vida | Reserva de citas</title>
+
+  <meta
+    name="description"
+    content="Reserva tu cita en Más Vida - Centro de Ayuda al Diagnóstico."
+  >
+
+  <meta
+    http-equiv="refresh"
+    content="1;url=https://script.google.com/macros/s/AKfycbyDp3xnA_-qq_tSba1efqxbemiJNl8RU-lfIw4f8AxpCNjdQTbqopKhCYzu4eFPXf2H/exec"
+  >
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #faf7f8;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #2d292a;
+    }
+
+    .contenedor {
+      text-align: center;
+      padding: 32px 20px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      color: #872442;
+      font-size: 30px;
+    }
+
+    p {
+      margin: 0 0 24px;
+      color: #6d6668;
+      font-size: 16px;
+    }
+
+    .cargando {
+      width: 34px;
+      height: 34px;
+      margin: 0 auto;
+      border: 4px solid #eadce1;
+      border-top-color: #872442;
+      border-radius: 50%;
+      animation: girar 0.8s linear infinite;
+    }
+
+    a {
+      display: block;
+      margin-top: 24px;
+      color: #872442;
+      font-size: 14px;
+    }
+
+    @keyframes girar {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="contenedor">
+
+    <h1>Más Vida</h1>
+
+    <p>Ingresando a la reserva de citas...</p>
+
+    <div class="cargando"></div>
+
+    <a
+      href="https://script.google.com/macros/s/AKfycbyDp3xnA_-qq_tSba1efqxbemiJNl8RU-lfIw4f8AxpCNjdQTbqopKhCYzu4eFPXf2H/exec"
+    >
+      Si no ingresa automáticamente, presione aquí
+    </a>
+
+  </main>
+
+  <script>
+    const destino =
+      "https://script.google.com/macros/s/AKfycbyDp3xnA_-qq_tSba1efqxbemiJNl8RU-lfIw4f8AxpCNjdQTbqopKhCYzu4eFPXf2H/exec";
+
+    setTimeout(() => {
+      window.location.replace(destino);
+    }, 500);
+  </script>
+
+</body>
+</html>
